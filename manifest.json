@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Bro, Padh Le! 😤",
+  "version": "1.0",
+  "description": "Distracting websites par padhai ki yaad dilane wala funny extension!",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.instagram.com/*",
+        "*://*.youtube.com/shorts/*",
+        "*://*.twitter.com/*",
+        "*://*.x.com/*"
+      ],
+      "css": ["style.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
